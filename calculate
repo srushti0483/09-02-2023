@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+              GCS
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+   <div class="container">
+    <div class="row">
+        <div class="col-8 margin-auto bg-dark text-white padding-4">
+            <h4 class="text-center">Grade calculateing system</h4>
+        </div>
+    </div>
+    <div>
+        <div class="book1">
+            <label>Computer</label>
+            <input id="bookone" type="number" name="" placeholder="marks">
+        </div>
+        <div class="book2">
+            <label>English</label>
+            <input id="booktwo" type="number" name="" placeholder="marks">
+        </div>
+        <div class="book3">
+            <label>Math</label>
+            <input id="bookthree" type="number" name="" placeholder="marks">
+        </div>
+        <div class="book4">
+            <label>Hindi</label>
+            <input id="bookfour" type="number" name="" placeholder="marks">
+        </div>
+        <div class="book5">
+            <label>Gujarati</label>
+            <input id="bookfive" type="number" name="" placeholder="marks">
+        </div>
+        <div>
+            <button onclick="calculate()">calculate</button>
+        </div>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Total marks:</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Obtained marks:</td>
+                <td id="obtain"></td>
+            </tr>
+            <tr>
+                <td>Percentage:</td>
+                <td id="per"></td>
+            </tr>
+            <tr>
+                <td>Grade:</td>
+                <td id="grade"></td>
+            </tr>
+            <tr>
+                <td>Remarks:</td>
+                <td id="remarks"></td>
+            </tr>
+        </table>
+    </div>
+   </div>
+   <script type="text/javascript" src="grade.js"></script>
+    </body>
+</html>
